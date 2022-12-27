@@ -1,0 +1,25 @@
+header#admin-floagg-bossbar {
+	font-size: 12px;
+	font-family: "Roboto", sans-serif;
+	font-weight: 400;
+	letter-spacing: .02rem;
+}
+
+header#admin-floagg-bossbar nav {
+	padding-left: 24px;
+	padding-right: 24px;
+	height: 30px;
+	display: flex;
+	align-items: center;
+
+	background-color: rgba(0, 0, 0);
+	color: rgba(255, 255, 255);
+}
+header#admin-floagg-bossbar nav ul {
+	list-style: none;
+	display: flex;
+}
+header#admin-floagg-bossbar nav ul li {
+	margin-left: 24px;
+}
+header#admin-floagg-bossbar nav ul li:nth-child(1) { margin-left: 0px; }
